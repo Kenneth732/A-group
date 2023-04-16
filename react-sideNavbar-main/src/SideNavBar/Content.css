@@ -1,0 +1,102 @@
+.ContentBox{
+    /* border: 3px solid green; */
+    background: #fff;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+}
+.ContentBox .left-nav{
+    flex-basis: 63.3%;
+}
+.ContentBox .right-nav{
+    flex-basis: 36.7%;
+    /* border: 3px solid yellow; */
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.SearchBox{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    width: 40%;
+    height: 4vh;
+    box-shadow: rgba(40, 39, 39, 0.35) 0px 5px 15px;
+}
+.nav-nv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.SearchBox input{
+    width: 100%;
+    padding: 8px 100px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #000;
+}
+::placeholder{
+    color: #ccc;
+}
+
+.contentInfo{
+    /* border: 3px solid red; */
+    width: 99.9%;
+    height: 90vh;
+}
+.contentInfo .contentInfoBox{
+    width: 100%;
+    height: 60vh;
+    background: url('./Imgs/newbc.jpg');
+    /* background: url('https://i.pinimg.com/564x/e8/0e/3c/e80e3ca1e9b475204b22e75d6d273a0f.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+.contentInfoBoxText{
+    margin-top: 0%;
+    width: 95%;
+    border: 2px solid transparent;
+    height: 59vh;
+    /* padding-block-end: 50px; */
+    position: relative;
+    
+    padding: 0 10px;
+}
+.contentInfo .contentInfoBox h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    /* border: 4px solid green; */
+}
+.contentInfo .contentInfoBox p{
+    line-height: 1.3;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    /* border: 3px solid red; */
+    width: 40%;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 10px 25px;
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+
+    color: #fff;
+    transition: .5s ease;
+}
+.buttons button:hover{
+    transform: scale(1.1);
+}
