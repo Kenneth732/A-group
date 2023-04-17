@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SideNavBar.css";
-import Content from "./Content";
+import Home from "../Home/Home";
 
 
 const SideNavBar = () => {
@@ -46,8 +46,8 @@ const SideNavBar = () => {
 					<div className="nav-menu">
 						{menuItems.map(({ text, icon }) => (
 							<a
-								className={isExpanded ? "menu-item" : "menu-item menu-item-NX"} href="#">
-								<img className="menu-item-icon" src={icon} alt="" srcset="" />
+								className={isExpanded ? "menu-item" : "menu-item menu-item-NX"} href="/">
+								<img className="menu-item-icon" src={icon} alt="/" srcset="" />
 								{isExpanded && <p>{text}</p>}
 							</a>
 						))}
@@ -59,13 +59,13 @@ const SideNavBar = () => {
 							<img
 								className="nav-footer-avatar"
 								src="icons/admin-avatar.svg"
-							/>
+						alt="#"	/>
 						</div>
 					)}
 				</div>
 			</div>
 			<div className="container-box">
-				<Content/>
+				<Home/>
 			</div>
 		</div>
 	);

@@ -1,4 +1,4 @@
-import SideNavBar from "./SideNavBar/SideNavBar";
+import SideNavBar from "../SideNavBar/SideNavBar";
 
 function App() {
 	return (
