@@ -4,22 +4,6 @@ import Footer from "../Footer/Footer";
 function Home() {
     return (
         <div className="ContextNav">
-            <div className="ContentBox">
-                <div className="left-nav">
-                    <div className="nav-nv">
-                        <p>Home</p>
-                        <p>About</p>
-                        <div className="SearchBox">
-                            <i class="bi bi-search"></i>
-                            <input placeholder="Find ...." />
-                        </div>
-                    </div>
-                </div>
-                <div className="right-nav">
-                    <p>LogIn</p>
-                    <p> SignUp</p>
-                </div>
-            </div>
             <div className="contentInfo">
                 <div className="contentInfoBox">
                     <div className="contentInfoBoxText">
